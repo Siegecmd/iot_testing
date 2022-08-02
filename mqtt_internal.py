@@ -12,7 +12,7 @@ broker_address="192.168.0.9"
 
 client = mqtt.Client(client_id="siegecmd", clean_session=True, userdata=None, protocol=mqtt.MQTTv311, transport="tcp")
 
-client.username_pw_set(username="raptor_mqtt", password="PfuaSy3gfBze81PpcG/SfQ==")
+client.username_pw_set(username="Redacted", password="Redacted==")
 
 client.on_message= on_message 
 client.on_connect = on_connect
